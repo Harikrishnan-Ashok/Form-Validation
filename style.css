@@ -1,0 +1,38 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #007bff;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    width: 100%;
+}
+
+.invalid-feedback {
+    display: none;
+    color: #dc3545;
+    font-size: 0.875em;
+    margin-top: 0.25rem;
+}
+
+input.is-invalid {
+    border-color: #dc3545;
+}
+
+input.is-invalid:focus {
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
